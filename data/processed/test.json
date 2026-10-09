@@ -1,0 +1,452 @@
+[
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0133.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0191.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0186.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0137.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0232.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0200.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0174.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0123.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0127.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0211.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0052.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0006.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0098.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0156.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0054.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0096.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0144.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0045.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0015.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0150.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0129.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0062.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0202.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0083.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0288.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0171.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0189.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0089.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0069.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0104.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0194.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0026.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0160.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0267.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0107.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0063.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0043.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0214.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0176.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0145.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0177.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0004.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0003.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0099.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0035.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0269.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0102.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0154.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0191.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0118.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0090.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0001.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0210.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0204.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0039.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0157.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0275.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0182.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0078.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0256.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0184.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0243.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0228.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0159.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0216.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0150.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0197.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0289.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0080.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0055.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0298.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0079.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0253.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0119.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0241.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0093.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0087.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0257.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0248.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0271.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0166.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0128.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0123.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0271.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0103.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0231.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0287.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\fire\\fire_real_0050.jpg",
+    "label": 0,
+    "class_name": "fire"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0187.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  },
+  {
+    "path": "D:\\computer_vision_task\\data\\raw\\smoke\\smoke_real_0262.jpg",
+    "label": 1,
+    "class_name": "smoke"
+  }
+]

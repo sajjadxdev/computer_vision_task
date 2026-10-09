@@ -1,0 +1,21 @@
+{
+  "total_samples": 600,
+  "class_distribution": {
+    "fire": 300,
+    "smoke": 300
+  },
+  "splits": {
+    "train": 420,
+    "val": 90,
+    "test": 90
+  },
+  "classes": [
+    "fire",
+    "smoke"
+  ],
+  "image_size": [
+    128,
+    128
+  ],
+  "dataset_type": "Real-World Fire & Smoke Photographic Dataset (Roboflow & Open-Source)"
+}

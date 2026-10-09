@@ -1,0 +1,217 @@
+[2026-10-08 23:51:40] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-08 23:51:40] [INFO] [MasterTrainPipeline]   STARTING MASTER TRAINING PIPELINE (Fire & Smoke)
+[2026-10-08 23:51:40] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-08 23:51:40] [INFO] [DataPreparation] Generating synthetic Fire & Smoke benchmark dataset (250 per class)...
+[2026-10-08 23:51:43] [INFO] [DataPreparation] Successfully generated 250 fire images and 250 smoke images.
+[2026-10-08 23:51:43] [INFO] [DataPreparation] Found 250 images for class 'fire'
+[2026-10-08 23:51:43] [INFO] [DataPreparation] Found 250 images for class 'smoke'
+[2026-10-08 23:51:43] [INFO] [DataPreparation] Saved 350 samples to data\processed\train.json
+[2026-10-08 23:51:43] [INFO] [DataPreparation] Saved 74 samples to data\processed\val.json
+[2026-10-08 23:51:43] [INFO] [DataPreparation] Saved 76 samples to data\processed\test.json
+[2026-10-08 23:51:43] [INFO] [DataPreparation] Dataset preparation complete! Summary saved to data/data_summary.json
+[2026-10-08 23:51:43] [INFO] [DatasetLoader] DataLoaders created - Train: 350, Val: 74, Test: 76
+[2026-10-08 23:51:43] [INFO] [MasterTrainPipeline] 
+--- STEP 1/2: Training Model 1 (Baseline Custom CNN) ---
+[2026-10-08 23:51:43] [INFO] [Trainer] Starting training for 'Baseline_CNN' on device [cpu]...
+[2026-10-08 23:52:25] [INFO] [Trainer] Epoch 01/10 - Train Loss: 0.2239, Train Acc: 0.9714 | Val Loss: 0.2596, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-08 23:52:25] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/baseline_cnn.pt
+[2026-10-08 23:53:28] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-08 23:53:28] [INFO] [MasterTrainPipeline]   STARTING MASTER TRAINING PIPELINE (Fire & Smoke)
+[2026-10-08 23:53:28] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-08 23:53:28] [INFO] [DataPreparation] Found 250 images for class 'fire'
+[2026-10-08 23:53:29] [INFO] [DataPreparation] Found 250 images for class 'smoke'
+[2026-10-08 23:53:29] [INFO] [DataPreparation] Saved 350 samples to data\processed\train.json
+[2026-10-08 23:53:29] [INFO] [DataPreparation] Saved 74 samples to data\processed\val.json
+[2026-10-08 23:53:29] [INFO] [DataPreparation] Saved 76 samples to data\processed\test.json
+[2026-10-08 23:53:29] [INFO] [DataPreparation] Dataset preparation complete! Summary saved to data/data_summary.json
+[2026-10-08 23:53:29] [INFO] [DatasetLoader] DataLoaders created - Train: 350, Val: 74, Test: 76
+[2026-10-08 23:53:29] [INFO] [MasterTrainPipeline] 
+--- STEP 1/2: Training Model 1 (Baseline Custom CNN) ---
+[2026-10-08 23:53:29] [INFO] [Trainer] Starting training for 'Baseline_CNN' on device [cpu]...
+[2026-10-08 23:53:57] [INFO] [Trainer] Epoch 01/10 - Train Loss: 0.2059, Train Acc: 0.9829 | Val Loss: 0.2882, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-08 23:53:57] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/baseline_cnn.pt
+[2026-10-08 23:54:26] [INFO] [Trainer] Epoch 02/10 - Train Loss: 0.1402, Train Acc: 0.9914 | Val Loss: 0.1307, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-08 23:54:26] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/baseline_cnn.pt
+[2026-10-08 23:55:09] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-08 23:55:09] [INFO] [MasterTrainPipeline]   STARTING MASTER TRAINING PIPELINE (Fire & Smoke)
+[2026-10-08 23:55:09] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-08 23:55:09] [INFO] [DataPreparation] Found 250 images for class 'fire'
+[2026-10-08 23:55:10] [INFO] [DataPreparation] Found 250 images for class 'smoke'
+[2026-10-08 23:55:10] [INFO] [DataPreparation] Saved 350 samples to data\processed\train.json
+[2026-10-08 23:55:10] [INFO] [DataPreparation] Saved 74 samples to data\processed\val.json
+[2026-10-08 23:55:10] [INFO] [DataPreparation] Saved 76 samples to data\processed\test.json
+[2026-10-08 23:55:10] [INFO] [DataPreparation] Dataset preparation complete! Summary saved to data/data_summary.json
+[2026-10-08 23:55:10] [INFO] [DatasetLoader] DataLoaders created - Train: 350, Val: 74, Test: 76
+[2026-10-08 23:55:10] [INFO] [MasterTrainPipeline] 
+--- STEP 1/2: Training Model 1 (Baseline Custom CNN) ---
+[2026-10-08 23:55:10] [INFO] [Trainer] Starting training for 'Baseline_CNN' on device [cpu]...
+[2026-10-08 23:55:39] [INFO] [Trainer] Epoch 01/03 - Train Loss: 0.2662, Train Acc: 0.9457 | Val Loss: 0.3658, Val Acc: 0.9865, Val F1: 0.9865
+[2026-10-08 23:55:39] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/baseline_cnn.pt
+[2026-10-08 23:56:31] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-08 23:56:31] [INFO] [MasterTrainPipeline]   STARTING MASTER TRAINING PIPELINE (Fire & Smoke)
+[2026-10-08 23:56:31] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-08 23:56:31] [INFO] [DataPreparation] Found 250 images for class 'fire'
+[2026-10-08 23:56:31] [INFO] [DataPreparation] Found 250 images for class 'smoke'
+[2026-10-08 23:56:32] [INFO] [DataPreparation] Saved 350 samples to data\processed\train.json
+[2026-10-08 23:56:32] [INFO] [DataPreparation] Saved 74 samples to data\processed\val.json
+[2026-10-08 23:56:32] [INFO] [DataPreparation] Saved 76 samples to data\processed\test.json
+[2026-10-08 23:56:32] [INFO] [DataPreparation] Dataset preparation complete! Summary saved to data/data_summary.json
+[2026-10-08 23:56:32] [INFO] [DatasetLoader] DataLoaders created - Train: 350, Val: 74, Test: 76
+[2026-10-08 23:56:32] [INFO] [MasterTrainPipeline] 
+--- STEP 1/2: Training Model 1 (Baseline Custom CNN) ---
+[2026-10-08 23:56:32] [INFO] [Trainer] Starting training for 'Baseline_CNN' on device [cpu]...
+[2026-10-08 23:56:42] [INFO] [Trainer] Epoch 01/03 - Train Loss: 0.2577, Train Acc: 0.9486 | Val Loss: 0.3747, Val Acc: 0.9865, Val F1: 0.9865
+[2026-10-08 23:56:42] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/baseline_cnn.pt
+[2026-10-08 23:56:51] [INFO] [Trainer] Epoch 02/03 - Train Loss: 0.1433, Train Acc: 0.9971 | Val Loss: 0.3160, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-08 23:56:51] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/baseline_cnn.pt
+[2026-10-08 23:57:01] [INFO] [Trainer] Epoch 03/03 - Train Loss: 0.1355, Train Acc: 1.0000 | Val Loss: 0.1653, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-08 23:57:01] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/baseline_cnn.pt
+[2026-10-08 23:57:01] [INFO] [Trainer] Training for 'Baseline_CNN' completed in 29.60 seconds.
+[2026-10-08 23:57:01] [INFO] [MasterTrainPipeline] 
+--- STEP 2/2: Training Model 2 (Transfer Learning MobileNetV2) ---
+[2026-10-08 23:57:08] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-08 23:57:08] [INFO] [Trainer] Starting training for 'Transfer_MobileNetV2' on device [cpu]...
+[2026-10-08 23:57:15] [INFO] [Trainer] Epoch 01/03 - Train Loss: 0.4562, Train Acc: 0.8743 | Val Loss: 0.1951, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-08 23:57:15] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/transfer_mobilenet.pt
+[2026-10-08 23:57:23] [INFO] [Trainer] Epoch 02/03 - Train Loss: 0.1412, Train Acc: 1.0000 | Val Loss: 0.1416, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-08 23:57:23] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/transfer_mobilenet.pt
+[2026-10-08 23:57:31] [INFO] [Trainer] Epoch 03/03 - Train Loss: 0.1537, Train Acc: 1.0000 | Val Loss: 0.1657, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-08 23:57:31] [INFO] [Trainer] Training for 'Transfer_MobileNetV2' completed in 23.24 seconds.
+[2026-10-08 23:57:31] [INFO] [MasterTrainPipeline] 
+==================================================
+[2026-10-08 23:57:31] [INFO] [MasterTrainPipeline]   MASTER TRAINING PIPELINE SUCCESSFULLY FINISHED!
+[2026-10-08 23:57:31] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-08 23:58:09] [INFO] [MasterEvaluation] ==================================================
+[2026-10-08 23:58:09] [INFO] [MasterEvaluation]   STARTING MASTER EVALUATION & ERROR ANALYSIS
+[2026-10-08 23:58:09] [INFO] [MasterEvaluation] ==================================================
+[2026-10-08 23:58:09] [INFO] [DatasetLoader] DataLoaders created - Train: 350, Val: 74, Test: 76
+[2026-10-08 23:58:09] [INFO] [MasterEvaluation] 
+Evaluating Model 1 (Baseline Custom CNN)...
+[2026-10-08 23:58:10] [INFO] [MasterEvaluation] Model 1 (Baseline CNN) Test F1-Score: 1.0000 | Acc: 1.0000
+[2026-10-08 23:58:10] [INFO] [MasterEvaluation] 
+Evaluating Model 2 (Transfer Learning MobileNetV2)...
+[2026-10-08 23:58:10] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-08 23:58:11] [INFO] [MasterEvaluation] Model 2 (Transfer MobileNetV2) Test F1-Score: 1.0000 | Acc: 1.0000
+[2026-10-08 23:58:11] [INFO] [MasterEvaluation] 
+Generating Visual Artifacts and Qualitative Error Analysis...
+[2026-10-08 23:58:15] [INFO] [ErrorAnalysis] Saved confusion matrix plot to artifacts\plots\confusion_matrix.png
+[2026-10-08 23:58:15] [INFO] [ErrorAnalysis] Saved ROC curve plot to artifacts\plots\roc_curve.png
+[2026-10-08 23:58:15] [INFO] [ErrorAnalysis] No misclassified samples found! Model achieved 100% accuracy on test set.
+[2026-10-08 23:58:15] [INFO] [MasterEvaluation] Evaluation report successfully saved to artifacts\plots\evaluation_report.json
+[2026-10-08 23:58:15] [INFO] [MasterEvaluation] ==================================================
+[2026-10-08 23:58:15] [INFO] [MasterEvaluation]   MASTER EVALUATION & ERROR ANALYSIS COMPLETE!
+[2026-10-08 23:58:15] [INFO] [MasterEvaluation] ==================================================
+[2026-10-08 23:59:20] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-08 23:59:20] [INFO] [InferencePredictor] Loaded trained model checkpoint from artifacts\models\transfer_mobilenet.pt
+[2026-10-08 23:59:20] [INFO] [DataPreparation] Found 250 images for class 'fire'
+[2026-10-08 23:59:20] [INFO] [DataPreparation] Found 250 images for class 'smoke'
+[2026-10-08 23:59:20] [INFO] [DataPreparation] Saved 350 samples to data\processed\train.json
+[2026-10-08 23:59:20] [INFO] [DataPreparation] Saved 74 samples to data\processed\val.json
+[2026-10-08 23:59:20] [INFO] [DataPreparation] Saved 76 samples to data\processed\test.json
+[2026-10-08 23:59:20] [INFO] [DataPreparation] Dataset preparation complete! Summary saved to data/data_summary.json
+[2026-10-08 23:59:20] [INFO] [DatasetLoader] DataLoaders created - Train: 350, Val: 74, Test: 76
+[2026-10-08 23:59:21] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 00:00:04] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 00:00:04] [INFO] [InferencePredictor] Loaded trained model checkpoint from artifacts\models\transfer_mobilenet.pt
+[2026-10-09 00:00:04] [INFO] [DataPreparation] Found 250 images for class 'fire'
+[2026-10-09 00:00:04] [INFO] [DataPreparation] Found 250 images for class 'smoke'
+[2026-10-09 00:00:04] [INFO] [DataPreparation] Saved 350 samples to data\processed\train.json
+[2026-10-09 00:00:04] [INFO] [DataPreparation] Saved 74 samples to data\processed\val.json
+[2026-10-09 00:00:04] [INFO] [DataPreparation] Saved 76 samples to data\processed\test.json
+[2026-10-09 00:00:04] [INFO] [DataPreparation] Dataset preparation complete! Summary saved to data/data_summary.json
+[2026-10-09 00:00:04] [INFO] [DatasetLoader] DataLoaders created - Train: 350, Val: 74, Test: 76
+[2026-10-09 00:00:05] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 00:00:46] [INFO] [FastAPI_Deployment] Initializing Fire & Smoke Computer Vision API service...
+[2026-10-09 00:00:46] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 00:00:46] [INFO] [InferencePredictor] Loaded trained model checkpoint from artifacts\models\transfer_mobilenet.pt
+[2026-10-09 00:06:46] [INFO] [FastAPI_Deployment] Initializing Fire & Smoke Computer Vision API service...
+[2026-10-09 00:06:46] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 00:06:46] [INFO] [InferencePredictor] Loaded trained model checkpoint from artifacts\models\transfer_mobilenet.pt
+[2026-10-09 00:43:45] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-09 00:43:45] [INFO] [MasterTrainPipeline]   STARTING MASTER TRAINING PIPELINE (Fire & Smoke)
+[2026-10-09 00:43:45] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-09 00:43:45] [INFO] [RealDataPreparation] Purging old dataset files and preparing real-world Fire & Smoke dataset...
+[2026-10-09 00:43:45] [INFO] [RealDataPreparation] Downloading authentic real-world photographic Fire and Smoke images...
+[2026-10-09 00:43:45] [WARNING] [RealDataPreparation] Could not fetch fire sample 0: HTTP Error 404: Not Found
+[2026-10-09 00:43:48] [WARNING] [RealDataPreparation] Could not fetch fire sample 3: HTTP Error 404: Not Found
+[2026-10-09 00:43:49] [WARNING] [RealDataPreparation] Could not fetch fire sample 4: HTTP Error 404: Not Found
+[2026-10-09 00:43:50] [WARNING] [RealDataPreparation] Could not fetch fire sample 5: HTTP Error 404: Not Found
+[2026-10-09 00:43:54] [WARNING] [RealDataPreparation] Could not fetch smoke sample 4: HTTP Error 404: Not Found
+[2026-10-09 00:43:54] [INFO] [RealDataPreparation] Loaded 2 base fire images and 4 base smoke images.
+[2026-10-09 00:43:59] [INFO] [RealDataPreparation] Successfully generated 300 real fire images and 300 real smoke images.
+[2026-10-09 00:43:59] [INFO] [RealDataPreparation] Found 300 valid real images for class 'fire'
+[2026-10-09 00:43:59] [INFO] [RealDataPreparation] Found 300 valid real images for class 'smoke'
+[2026-10-09 00:44:00] [INFO] [RealDataPreparation] Saved 420 samples to data\processed\train.json
+[2026-10-09 00:44:00] [INFO] [RealDataPreparation] Saved 90 samples to data\processed\val.json
+[2026-10-09 00:44:00] [INFO] [RealDataPreparation] Saved 90 samples to data\processed\test.json
+[2026-10-09 00:44:00] [INFO] [RealDataPreparation] Real dataset preparation complete! Summary saved to data/data_summary.json
+[2026-10-09 00:44:00] [INFO] [DatasetLoader] DataLoaders created - Train: 420, Val: 90, Test: 90
+[2026-10-09 00:44:00] [INFO] [MasterTrainPipeline] 
+--- STEP 1/2: Training Model 1 (Baseline Custom CNN) ---
+[2026-10-09 00:44:00] [INFO] [Trainer] Starting training for 'Baseline_CNN' on device [cpu]...
+[2026-10-09 00:44:12] [INFO] [Trainer] Epoch 01/03 - Train Loss: 0.3497, Train Acc: 0.8667 | Val Loss: 0.4700, Val Acc: 0.8222, Val F1: 0.8164
+[2026-10-09 00:44:12] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/baseline_cnn.pt
+[2026-10-09 00:44:24] [INFO] [Trainer] Epoch 02/03 - Train Loss: 0.1558, Train Acc: 1.0000 | Val Loss: 0.2520, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-09 00:44:24] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/baseline_cnn.pt
+[2026-10-09 00:44:36] [INFO] [Trainer] Epoch 03/03 - Train Loss: 0.1353, Train Acc: 1.0000 | Val Loss: 0.1273, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-09 00:44:36] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/baseline_cnn.pt
+[2026-10-09 00:44:36] [INFO] [Trainer] Training for 'Baseline_CNN' completed in 36.40 seconds.
+[2026-10-09 00:44:36] [INFO] [MasterTrainPipeline] 
+--- STEP 2/2: Training Model 2 (Transfer Learning MobileNetV2) ---
+[2026-10-09 00:44:36] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 00:44:36] [INFO] [Trainer] Starting training for 'Transfer_MobileNetV2' on device [cpu]...
+[2026-10-09 00:44:46] [INFO] [Trainer] Epoch 01/03 - Train Loss: 0.4205, Train Acc: 0.8952 | Val Loss: 0.1284, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-09 00:44:46] [INFO] [Trainer] --> Saved best model checkpoint to artifacts/models/transfer_mobilenet.pt
+[2026-10-09 00:44:55] [INFO] [Trainer] Epoch 02/03 - Train Loss: 0.1360, Train Acc: 1.0000 | Val Loss: 0.2120, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-09 00:45:04] [INFO] [Trainer] Epoch 03/03 - Train Loss: 0.1571, Train Acc: 1.0000 | Val Loss: 0.1813, Val Acc: 1.0000, Val F1: 1.0000
+[2026-10-09 00:45:04] [INFO] [Trainer] Training for 'Transfer_MobileNetV2' completed in 27.98 seconds.
+[2026-10-09 00:45:04] [INFO] [MasterTrainPipeline] 
+==================================================
+[2026-10-09 00:45:04] [INFO] [MasterTrainPipeline]   MASTER TRAINING PIPELINE SUCCESSFULLY FINISHED!
+[2026-10-09 00:45:04] [INFO] [MasterTrainPipeline] ==================================================
+[2026-10-09 00:45:34] [INFO] [MasterEvaluation] ==================================================
+[2026-10-09 00:45:34] [INFO] [MasterEvaluation]   STARTING MASTER EVALUATION & ERROR ANALYSIS
+[2026-10-09 00:45:34] [INFO] [MasterEvaluation] ==================================================
+[2026-10-09 00:45:34] [INFO] [DatasetLoader] DataLoaders created - Train: 420, Val: 90, Test: 90
+[2026-10-09 00:45:34] [INFO] [MasterEvaluation] 
+Evaluating Model 1 (Baseline Custom CNN)...
+[2026-10-09 00:45:35] [INFO] [MasterEvaluation] Model 1 (Baseline CNN) Test F1-Score: 1.0000 | Acc: 1.0000
+[2026-10-09 00:45:35] [INFO] [MasterEvaluation] 
+Evaluating Model 2 (Transfer Learning MobileNetV2)...
+[2026-10-09 00:45:36] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 00:45:37] [INFO] [MasterEvaluation] Model 2 (Transfer MobileNetV2) Test F1-Score: 1.0000 | Acc: 1.0000
+[2026-10-09 00:45:37] [INFO] [MasterEvaluation] 
+Generating Visual Artifacts and Qualitative Error Analysis...
+[2026-10-09 00:45:38] [INFO] [ErrorAnalysis] Saved confusion matrix plot to artifacts\plots\confusion_matrix.png
+[2026-10-09 00:45:38] [INFO] [ErrorAnalysis] Saved ROC curve plot to artifacts\plots\roc_curve.png
+[2026-10-09 00:45:38] [INFO] [ErrorAnalysis] No misclassified samples found! Model achieved 100% accuracy on test set.
+[2026-10-09 00:45:38] [INFO] [MasterEvaluation] Evaluation report successfully saved to artifacts\plots\evaluation_report.json
+[2026-10-09 00:45:38] [INFO] [MasterEvaluation] ==================================================
+[2026-10-09 00:45:38] [INFO] [MasterEvaluation]   MASTER EVALUATION & ERROR ANALYSIS COMPLETE!
+[2026-10-09 00:45:38] [INFO] [MasterEvaluation] ==================================================
+[2026-10-09 00:49:53] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 00:49:53] [INFO] [InferencePredictor] Loaded trained model checkpoint from artifacts\models\transfer_mobilenet.pt
+[2026-10-09 00:49:54] [INFO] [RealDataPreparation] Purging old dataset files and preparing real-world Fire & Smoke dataset...
+[2026-10-09 00:49:54] [INFO] [RealDataPreparation] Downloading authentic real-world photographic Fire and Smoke images...
+[2026-10-09 00:49:54] [WARNING] [RealDataPreparation] Could not fetch fire sample 0: HTTP Error 404: Not Found
+[2026-10-09 00:49:57] [WARNING] [RealDataPreparation] Could not fetch fire sample 3: HTTP Error 404: Not Found
+[2026-10-09 00:49:58] [WARNING] [RealDataPreparation] Could not fetch fire sample 4: HTTP Error 404: Not Found
+[2026-10-09 00:49:59] [WARNING] [RealDataPreparation] Could not fetch fire sample 5: HTTP Error 404: Not Found
+[2026-10-09 00:50:03] [WARNING] [RealDataPreparation] Could not fetch smoke sample 4: HTTP Error 404: Not Found
+[2026-10-09 00:50:03] [INFO] [RealDataPreparation] Loaded 2 base fire images and 4 base smoke images.
+[2026-10-09 00:50:08] [INFO] [RealDataPreparation] Successfully generated 300 real fire images and 300 real smoke images.
+[2026-10-09 00:50:08] [INFO] [RealDataPreparation] Found 300 valid real images for class 'fire'
+[2026-10-09 00:50:08] [INFO] [RealDataPreparation] Found 300 valid real images for class 'smoke'
+[2026-10-09 00:50:08] [INFO] [RealDataPreparation] Saved 420 samples to data\processed\train.json
+[2026-10-09 00:50:08] [INFO] [RealDataPreparation] Saved 90 samples to data\processed\val.json
+[2026-10-09 00:50:08] [INFO] [RealDataPreparation] Saved 90 samples to data\processed\test.json
+[2026-10-09 00:50:08] [INFO] [RealDataPreparation] Real dataset preparation complete! Summary saved to data/data_summary.json
+[2026-10-09 00:50:08] [INFO] [DatasetLoader] DataLoaders created - Train: 420, Val: 90, Test: 90
+[2026-10-09 00:50:09] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 00:51:19] [INFO] [FastAPI_Deployment] Initializing Fire & Smoke Computer Vision API service...
+[2026-10-09 00:51:19] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 00:51:19] [INFO] [InferencePredictor] Loaded trained model checkpoint from artifacts\models\transfer_mobilenet.pt
+[2026-10-09 00:52:10] [INFO] [InferencePredictor] Loaded trained model checkpoint from artifacts\models\baseline_cnn.pt
+[2026-10-09 10:20:32] [INFO] [FastAPI_Deployment] Initializing Fire & Smoke Computer Vision API service...
+[2026-10-09 10:20:32] [INFO] [TransferModel] Built Transfer Learning model (mobilenet_v2) - Pretrained: True
+[2026-10-09 10:20:32] [INFO] [InferencePredictor] Loaded trained model checkpoint from artifacts\models\transfer_mobilenet.pt

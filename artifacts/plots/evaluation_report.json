@@ -1,0 +1,57 @@
+{
+  "dataset_summary": {
+    "test_samples": 90,
+    "classes": [
+      "fire",
+      "smoke"
+    ]
+  },
+  "model_comparison": {
+    "baseline_cnn": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1_score": 1.0,
+      "roc_auc": 1.0,
+      "per_class": {
+        "fire": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 45
+        },
+        "smoke": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 45
+        }
+      }
+    },
+    "transfer_learning_mobilenet_v2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1_score": 1.0,
+      "roc_auc": 1.0,
+      "per_class": {
+        "fire": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 45
+        },
+        "smoke": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 45
+        }
+      }
+    }
+  },
+  "error_analysis_summary": {
+    "total_misclassifications": 0,
+    "error_rate": 0.0
+  }
+}

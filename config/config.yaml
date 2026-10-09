@@ -1,0 +1,71 @@
+# Configuration file for Fire & Smoke Computer Vision Classifier
+
+project:
+  name: "fire_smoke_cv_assessment"
+  version: "1.0.0"
+  author: "ML Engineer Candidate"
+  description: "End-to-end computer vision pipeline for Fire and Smoke detection & classification"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  image_size: [128, 128]
+  num_workers: 0
+  seed: 42
+  classes: ["fire", "smoke"]
+  num_classes: 2
+
+augmentation:
+  random_horizontal_flip_prob: 0.5
+  random_rotation_degrees: 15
+  color_jitter:
+    brightness: 0.2
+    contrast: 0.2
+    saturation: 0.2
+    hue: 0.05
+
+models:
+  baseline_cnn:
+    name: "baseline_custom_cnn"
+    conv_channels: [32, 64, 128]
+    fc_dim: 128
+    dropout: 0.3
+    checkpoint_path: "artifacts/models/baseline_cnn.pt"
+  
+  transfer_learning:
+    name: "mobilenet_v2_transfer"
+    architecture: "mobilenet_v2" # Options: mobilenet_v2, resnet18
+    pretrained: true
+    unfreeze_last_n_layers: 2
+    fc_dim: 256
+    dropout: 0.4
+    checkpoint_path: "artifacts/models/transfer_mobilenet.pt"
+
+training:
+  epochs: 3
+  batch_size: 64
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  optimizer: "adamw"
+  scheduler: "step" # Options: step, cosine, reduce_on_plateau
+  step_size: 3
+  gamma: 0.5
+  early_stopping_patience: 4
+  device: "cpu" # Auto-detected if cuda available
+
+evaluation:
+  metrics: ["accuracy", "precision", "recall", "f1_score", "roc_auc"]
+  output_dir: "artifacts/plots"
+  confusion_matrix_filename: "confusion_matrix.png"
+  roc_curve_filename: "roc_curve.png"
+  error_analysis_filename: "error_analysis_samples.png"
+  evaluation_report_filename: "evaluation_report.json"
+
+inference:
+  host: "0.0.0.0"
+  port: 8000
+  model_to_use: "transfer_learning" # or baseline_cnn
+  confidence_threshold: 0.50
